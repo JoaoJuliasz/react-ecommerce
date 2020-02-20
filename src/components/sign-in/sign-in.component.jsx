@@ -49,7 +49,7 @@ render() {
                     label="email" />
                 <FormInput name="password"
                     label="Password"
-                    value={this.state.password} handleChange={this.handleChange} required />
+                    value={this.state.password} type='password' handleChange={this.handleChange} required />
                 <div className="buttons">
                     <CustomButton type="submit" > SIGN IN </CustomButton>
                     <CustomButton onClick={signInWithGoogle} isGoogleSignIn>{' '} Sign in with Google {' '}</CustomButton>
