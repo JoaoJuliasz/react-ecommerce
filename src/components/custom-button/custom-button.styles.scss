@@ -16,6 +16,8 @@ $white-color: #fff;
     font-weight: bolder;
     border: none;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
 
     &:hover{
         background-color: $white-color;
@@ -33,4 +35,17 @@ $white-color: #fff;
         }
     }
 
+
+    &.inverted {
+        background-color: $white-color;
+        color: $black-color;
+        border: 1px solid $black-color;
+
+        &:hover {
+            background-color: $black-color;
+            color: $white-color;
+            border: none;
+        }
+    }
+    
 }
