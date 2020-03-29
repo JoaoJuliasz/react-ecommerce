@@ -35,6 +35,7 @@ export const signOutFailure = error => ({
     payload: error
 })
 
+//UserCredentials is an object that will contain all the infos of sign up
 export const signUpStart = (UserCredentials) => ({
     type: UserActionTypes.SIGN_UP_START,
     payload: UserCredentials
